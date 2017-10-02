@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WorkspaceViewState version="1.0">
+  <ExpandedNodes>
+    <Node path="logger.4pw" type="pm/main-project"/>
+    <Node path="logger.4pw/logUtility" type="pm/group"/>
+    <Node path="logger.4pw/logUtility/logger" type="pm/library"/>
+    <Node path="logger.4pw/logUtility/tester" type="pm/application"/>
+  </ExpandedNodes>
+  <OpenDocuments>
+    <Document container="true" filePath="logger.4gl" locator="154:1" module="mod-ce3">
+      <Data name="8" value="UTF-8"/>
+    </Document>
+  </OpenDocuments>
+  <CurrentDocument filePath="" module="mod-wp"/>
+</WorkspaceViewState>

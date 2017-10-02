@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WorkspaceViewState version="1.0">
+  <ExpandedNodes>
+    <Node path="interfaces.4pw" type="pm/main-project"/>
+    <Node path="interfaces.4pw/interfaces" type="pm/group"/>
+    <Node path="interfaces.4pw/interfaces/Databases" type="pm/library"/>
+    <Node path="interfaces.4pw/interfaces/interfaceToOfficestore" type="pm/library"/>
+    <Node path="interfaces.4pw/interfaces/officeStoreDomain.4pw" type="pm/ext-project"/>
+    <Node path="interfaces.4pw/interfaces/officeStoreDomain.4pw/domainClasses" type="pm/group"/>
+    <Node path="interfaces.4pw/interfaces/officeStoreDomain.4pw/domainClasses/accountClass.4pw/accountDomain" type="pm/group"/>
+    <Node path="interfaces.4pw/interfaces/officeStoreDomain.4pw/domainClasses/accountClass.4pw/accountDomain/account" type="pm/library"/>
+    <Node path="interfaces.4pw/interfaces/officeStoreDomain.4pw/domainClasses/categoryClass.4pw/categoryDomain" type="pm/group"/>
+    <Node path="interfaces.4pw/interfaces/officeStoreDomain.4pw/domainClasses/categoryClass.4pw/categoryDomain/category" type="pm/library"/>
+    <Node path="interfaces.4pw/interfaces/officeStoreDomain.4pw/domainClasses/itemClass.4pw/itemDomain" type="pm/group"/>
+    <Node path="interfaces.4pw/interfaces/officeStoreDomain.4pw/domainClasses/itemClass.4pw/itemDomain/item" type="pm/library"/>
+    <Node path="interfaces.4pw/interfaces/officeStoreDomain.4pw/domainClasses/orderClass.4pw/orderDomain" type="pm/group"/>
+    <Node path="interfaces.4pw/interfaces/officeStoreDomain.4pw/domainClasses/orderClass.4pw/orderDomain/order" type="pm/library"/>
+    <Node path="interfaces.4pw/interfaces/officeStoreDomain.4pw/domainClasses/orderItemClass.4pw/orderItemDomain" type="pm/group"/>
+    <Node path="interfaces.4pw/interfaces/officeStoreDomain.4pw/domainClasses/orderItemClass.4pw/orderItemDomain/orderItem" type="pm/library"/>
+    <Node path="interfaces.4pw/interfaces/officeStoreDomain.4pw/domainClasses/productClass.4pw/productDomain" type="pm/group"/>
+    <Node path="interfaces.4pw/interfaces/officeStoreDomain.4pw/domainClasses/productClass.4pw/productDomain/product" type="pm/library"/>
+    <Node path="interfaces.4pw/interfaces/officeStoreDomain.4pw/domainClasses/supplierClass.4pw/supplierDomain" type="pm/group"/>
+    <Node path="interfaces.4pw/interfaces/officeStoreDomain.4pw/domainClasses/supplierClass.4pw/supplierDomain/supplier" type="pm/library"/>
+  </ExpandedNodes>
+  <OpenDocuments>
+    <Document container="true" filePath="../../database/officestore.4db" locator="" module="mod-db3"/>
+  </OpenDocuments>
+  <CurrentDocument filePath="../../database/officestore.4db" module="mod-db3"/>
+</WorkspaceViewState>

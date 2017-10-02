@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ANSI_X3.4-1968"?>
+<!--
+  FOURJS_START_COPYRIGHT(D,2011)
+  Property of Four Js*
+  (c) Copyright Four Js 2011, 2017. All Rights Reserved.
+  * Trademark of Four Js Development Tools Europe Ltd
+    in the United States and elsewhere
+  
+  This file can be modified by licensees according to the product manual.
+  FOURJS_END_COPYRIGHT
+-->
+<ActionDefaultList>
+  <ActionDefault name="exit"    text="Exit"    comment="Exit ALT+F4"   image="quit"     acceleratorName="Alt-F4" />
+  <ActionDefault name="update"  text="Modify"  comment="Modify CTRL+M" image="edit"     acceleratorName="Control-M" />
+  <ActionDefault name="save"    text="Save"    comment="Save CTRL+S"   image="disk"     acceleratorName="Control-S"/>
+  <ActionDefault name="delete"  text="Delete"  comment="Delete CTRL+D" image="garbage"  acceleratorName="Control-D" />
+  <ActionDefault name="query"   text="Search"  comment="Search CTRL+F" image="find"     acceleratorName="Control-F"/>
+  <ActionDefault name="zoom"    text="Zoom"    comment="Zoom F7"       image="zoom"     acceleratorName="F7" />
+  <ActionDefault name="accept"  defaultView="no" text="Accept"  comment="Accept"        image="accept"   acceleratorName="Return" acceleratorName2="Enter"/>
+  <ActionDefault name="cancel"  defaultView="no" text="Cancel"  comment="Cancel ESC"    image="cancel"   acceleratorName="Escape" />
+
+  <ActionDefault name="editcopy"  text="Copy"  image="copy"  comment="Copy"  acceleratorName="Control-C" contextMenu="no"/>
+  <ActionDefault name="editcut"   text="Cut"   image="cut"   comment="Cut"   acceleratorName="Control-X" contextMenu="no"/>
+  <ActionDefault name="editpaste" text="Paste" image="paste" comment="Paste" acceleratorName="Control-V" contextMenu="no"/>
+
+  <ActionDefault name="dialogtouched" defaultView="no"  validate="no"/>
+  <ActionDefault name="close"         defaultView="no"/>
+
+  <ActionDefault name="reportsetup"      text="Print..." comment="Select a report and configure the print settings"  image="printer"  acceleratorName="Control-Shift-P" />
+  <ActionDefault name="reportprint"      text="Print"    comment="Print report"                                      image="printer"  acceleratorName="Control-P" />
+  <ActionDefault name="reportpreview"    text="Preview"  comment="Preview report"                                    image="mag"      acceleratorName="" />
+  <ActionDefault name="reportexportpdf"  text="PDF"      comment="Export report to PDF format"                       image="export"   acceleratorName="" />
+  <ActionDefault name="reportexporthtml" text="HTML"     comment="Export report to HTML format"                      image="export"   acceleratorName="" />
+  <ActionDefault name="reportexportxls"  text="XLS"      comment="Export report to XLS (Excel) format"               image="export"   acceleratorName="" />
+  <ActionDefault name="reportexportrtf"  text="RTF"      comment="Export report to RTF (MS-Word) format"             image="export"   acceleratorName="" />
+
+  <ActionDefault name="firstrow" text="First"         comment="First"         image="gobegin" acceleratorName="Home" acceleratorName2="Control-Home"/>
+  <ActionDefault name="prevpage" text="Previous Page" comment="Previous Page" image="rewind"  acceleratorName="Prior"/>
+  <ActionDefault name="prevrow"  text="Previous"      comment="Previous"      image="gorev"   acceleratorName="Up"/>
+  <ActionDefault name="nextrow"  text="Next"          comment="Next"          image="goforw"  acceleratorName="Down"/>
+  <ActionDefault name="nextpage" text="Next Page"     comment="Next Page"     image="forwind" acceleratorName="Next"/>
+  <ActionDefault name="lastrow"  text="Last"          comment="Last"          image="goend"   acceleratorName="End"  acceleratorName2="Control-End"/>
+
+  <ActionDefault name="insert" text="Insert" comment="Insert CTRL+I" image="listins" acceleratorName="Control-I"/>
+  <ActionDefault name="new"    text="New"    comment="New CTRL+N"    image="new"     acceleratorName="Control-N"/>
+  <ActionDefault name="append" text="Append" comment="Append CTRL+A" image="listadd" acceleratorName="Control-A"/>
+  
+  <ActionDefault name="openaccount"      text="Account" comment="Open the account form"  image="user" />
+</ActionDefaultList>

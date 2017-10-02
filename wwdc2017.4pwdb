@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WorkspaceDatabase fileContentsEncoding="CP1252" version="2.0">
+<File m="demoClient" n="webservices/Client/demoClient.4gl" ts="20170927221204916">
+<Fct c="10" el="815" l="784" n="deleteCustomer(thisCustomer STRING)" t="F"/>
+<Fct c="10" el="782" l="749" n="postCustomer(thisCustomer RECORD)" t="F"/>
+<Fct c="10" el="747" l="711" n="putCustomer(cust_rec RECORD)" t="F"/>
+<Fct c="10" el="709" l="694" n="errorHandler()" t="F"/>
+<Fct c="8" el="686" l="654" n="report_all_customers(accountData RECORD)" t="R"/>
+<Fct c="10" el="646" l="634" n="runReportFromDatabase(handler om.SaxDocumentHandler)" t="F">
+<Call c="18" l="639" n="report_all_customers" t="R"/>
+<Call c="26" l="641" n="report_all_customers" t="R"/>
+<Call c="19" l="643" n="report_all_customers" t="R"/>
+</Fct>
+<Fct c="10" el="626" l="622" n="getPreviewDevice()" t="F"/>
+<Fct c="10" el="614" l="601" n="configureOutput(opt STRING)" t="F">
+<Call c="12" l="603" n="fgl_report_loadCurrentSettings" t="F"/>
+<Call c="10" l="610" n="fgl_report_selectDevice" t="F"/>
+<Call c="10" l="611" n="fgl_report_selectPreview" t="F"/>
+<Call c="12" l="612" n="fgl_report_commitCurrentSettings" t="F"/>
+</Fct>
+<Fct c="10" el="593" l="582" n="report(opt STRING)" t="F">
+<Call c="19" l="585" n="configureOutput" t="F"/>
+<Call c="10" l="591" n="runReportFromDatabase" t="F"/>
+</Fct>
+<Fct c="10" el="574" l="572" n="consoleLogger(logCategory INTEGER,logClass STRING,logEvent STRING,logMessage STRING)" t="F"/>
+<Fct c="10" el="564" l="549" n="fillOrderItemData()" t="F">
+<Call c="25" i="logger" l="557" n="logEvent" t="F"/>
+</Fct>
+<Fct c="10" el="539" l="502" n="showOrderDetail(thisOrder STRING)" t="F">
+<Call c="10" l="524" n="retrieveOrderItems" t="F"/>
+</Fct>
+<Fct c="10" el="493" l="478" n="fillOrderData(thisUser STRING)" t="F">
+<Call c="25" i="logger" l="486" n="logEvent" t="F"/>
+</Fct>
+<Fct c="10" el="468" l="340" n="clientOutput(opt STRING)" t="F">
+<Call c="26" l="372" n="fillOrderData" t="F"/>
+<Call c="26" l="382" n="showOrderDetail" t="F"/>
+<Call c="22" l="403" n="putCustomer" t="F"/>
+<Call c="18" l="435" n="postCustomer" t="F"/>
+<Call c="23" l="439" n="deleteCustomer" t="F"/>
+<Call c="14" l="464" n="report" t="F"/>
+</Fct>
+<Fct c="10" el="330" l="295" n="doRESTRequest(requestResource STRING)" t="F">
+<Call c="18" l="324" n="errorHandler" t="F"/>
+</Fct>
+<Fct c="10" el="286" l="246" n="retrieveOrderItems(thisOrder STRING)" t="F">
+<Call c="20" l="252" n="doRESTRequest" t="F"/>
+<Call c="18" l="275" n="errorHandler" t="F"/>
+<Call c="18" l="281" n="errorHandler" t="F"/>
+</Fct>
+<Fct c="10" el="231" l="192" n="retrieveOrders()" t="F">
+<Call c="20" l="197" n="doRESTRequest" t="F"/>
+<Call c="18" l="219" n="errorHandler" t="F"/>
+<Call c="18" l="225" n="errorHandler" t="F"/>
+</Fct>
+<Fct c="10" el="177" l="137" n="retrieveCustomers()" t="F">
+<Call c="20" l="142" n="doRESTRequest" t="F"/>
+<Call c="22" l="164" n="errorHandler" t="F"/>
+<Call c="18" l="170" n="errorHandler" t="F"/>
+</Fct>
+<Fct c="1" el="124" l="78" n="main()" t="F">
+<Call c="29" l="82" n="errorHandler" t="F"/>
+<Call c="17" i="logger" l="85" n="initializeLog" t="F"/>
+<Call c="17" i="logger" l="87" n="setLoggerFunction" t="F"/>
+<Call c="44" l="87" n="consoleLogger" t="F"/>
+<Call c="14" l="102" n="retrieveCustomers" t="F"/>
+<Call c="14" l="106" n="errorHandler" t="F"/>
+<Call c="14" l="111" n="retrieveOrders" t="F"/>
+<Call c="14" l="115" n="errorHandler" t="F"/>
+<Call c="17" i="logger" l="118" n="logEvent" t="F"/>
+<Call c="10" l="121" n="clientOutput" t="F"/>
+</Fct>
+<Todo l="132" t=" implementation according to REST principle #4 above...response should &#13;"/>
+<Todo l="188" t=" implementation according to REST principle #4 above...response should &#13;"/>
+<Todo l="242" t=" implementation according to REST principle #4 above...response should &#13;"/>
+</File>
+<File m="restServer" n="webservices/Server/restServer.4gl" ts="20170927140816397">
+<Dep t="interfaces/interfaceToOfficestore/factoryInterface.4gl"/>
+<Dep t="foundation/logger/logger.4gl"/>
+<Dep t="foundation/application/appUtility.4gl"/>
+<Fct c="10" el="176" l="159" n="checkListenerStatus(listenerStatus INTEGER)" t="F">
+<Call c="25" i="logger" l="163" n="logEvent" t="F"/>
+<Call c="18" l="164" n="programExit" t="F"/>
+<Call c="29" i="logger" l="168" n="logEvent" t="F"/>
+<Call c="29" i="logger" l="170" n="logEvent" t="F"/>
+<Call c="22" l="171" n="programExit" t="F"/>
+</Fct>
+<Fct c="10" el="151" l="130" n="errorHandler()" t="F">
+<Call c="17" i="logger" l="149" n="logEvent" t="F"/>
+<Call c="10" l="150" n="programExit" t="F"/>
+</Fct>
+<Fct c="1" el="123" l="48" n="main()" t="F">
+<Call c="29" l="55" n="errorHandler" t="F"/>
+<Call c="25" i="appUtility" l="60" n="initialize" t="F"/>
+<Call c="21" i="logger" l="62" n="logEvent" t="F"/>
+<Call c="21" i="logger" l="64" n="logEvent" t="F"/>
+<Call c="14" l="69" n="errorHandler" t="F"/>
+<Call c="21" i="logger" l="70" n="logEvent" t="F"/>
+<Call c="14" l="71" n="programExit" t="F"/>
+<Call c="21" i="logger" l="77" n="logEvent" t="F"/>
+<Call c="14" l="84" n="checkListenerStatus" t="F"/>
+<Call c="21" i="logger" l="86" n="logEvent" t="F"/>
+<Call c="18" l="92" n="marshalRESTQuery" t="F"/>
+<Call c="18" l="96" n="marshalRESTInsert" t="F"/>
+<Call c="18" l="100" n="marshalRESTUpdate" t="F"/>
+<Call c="18" l="104" n="marshalRESTDelete" t="F"/>
+<Call c="25" i="logger" l="108" n="logEvent" t="F"/>
+<Call c="17" i="logger" l="120" n="logEvent" t="F"/>
+<Call c="10" l="121" n="programExit" t="F"/>
+</Fct>
+<Todo l="14" t=" Authentication?&#13;"/>
+<Todo l="15" t=" Service versioning?&#13;"/>
+<Todo l="16" t=" Representational formatting...i.e. &apos;.json&apos; or &apos;.xml&apos; in URI?&#13;"/>
+<Todo l="17" t=" Cacheability?&#13;"/>
+<Todo l="18" t=" Handling cross-domain(CORS support)?&#13;"/>
+<Bug l="144" t="logging&#13;"/>
+</File>
+</WorkspaceDatabase>

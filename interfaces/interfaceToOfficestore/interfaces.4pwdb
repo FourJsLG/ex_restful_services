@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WorkspaceDatabase fileContentsEncoding="CP1252" version="2.0">
+<File m="accountFactory" n="accountFactory.4gl" ts="20170918143430145">
+<Dep t="../../domain/account/account.4gl"/>
+<Fct c="10" el="127" l="41" n="processQuery(queryFilter STRING)" t="F">
+<Call c="22" i="account" l="70" n="initQuery" t="F"/>
+<Call c="30" i="account" l="74" n="setQueryID" t="F"/>
+<Call c="30" i="account" l="76" n="setQueryFname" t="F"/>
+<Call c="30" i="account" l="78" n="setQueryLname" t="F"/>
+<Call c="26" i="account" l="91" n="getRecords" t="F"/>
+<Call c="40" i="account" l="94" n="getRecordsList" t="F"/>
+<Call c="52" i="account" l="96" n="getJSONEncoding" t="F"/>
+</Fct>
+<Todo l="27" t=" Add logging &#13;"/>
+</File>
+<File m="categoryFactory" n="categoryFactory.4gl" ts="20170801103910088">
+<Fct c="10" el="83" l="32" n="processQuery(queryFilter STRING)" t="F">
+<Call c="23" i="category" l="47" n="initQuery" t="F"/>
+<Call c="31" i="category" l="51" n="setQueryID" t="F"/>
+<Call c="27" i="category" l="64" n="getRecords" t="F"/>
+<Call c="49" i="category" l="67" n="getJSONEncoding" t="F"/>
+</Fct>
+</File>
+<File m="factoryInterface" n="factoryInterface.4gl" ts="20170918143430115">
+<Dep t="categoryFactory.4gl"/>
+<Dep t="itemFactory.4gl"/>
+<Dep t="supplierFactory.4gl"/>
+<Dep t="orderFactory.4gl"/>
+<Dep t="accountFactory.4gl"/>
+<Fct c="10" el="452" l="446" n="setOutputFormat(contentHeader STRING)" t="F"/>
+<Fct c="10" el="438" l="432" n="setInputFormat(contentHeader STRING)" t="F"/>
+<Fct c="10" el="424" l="416" n="extractKeyValueFromQuery(str STRING)" t="F"/>
+<Fct c="10" el="409" l="391" n="parseQueryString(str STRING)" t="F">
+<Call c="14" l="405" n="extractKeyValueFromQuery" t="F"/>
+</Fct>
+<Fct c="10" el="382" l="367" n="parseRequest(url STRING)" t="F"/>
+<Fct c="18" el="361" l="355" n="getServicesDiscover()" t="F"/>
+<Fct c="10" el="353" l="319" n="marshalRESTDelete(request com.HttpServiceRequest)" t="F"/>
+<Fct c="10" el="301" l="268" n="marshalRESTInsert(request com.HttpServiceRequest)" t="F"/>
+<Fct c="10" el="250" l="217" n="marshalRESTUpdate(request com.HttpServiceRequest)" t="F"/>
+<Fct c="10" el="199" l="92" n="marshalRESTQuery(request com.HttpServiceRequest)" t="F">
+<Call c="10" l="109" n="setInputFormat" t="F"/>
+<Call c="10" l="110" n="setOutputFormat" t="F"/>
+<Call c="17" i="logger" l="116" n="logEvent" t="F"/>
+<Call c="33" i="accountFactory" l="137" n="processQuery" p="accountFactory.4gl" t="F"/>
+<Call c="34" i="categoryFactory" l="143" n="processQuery" p="accountFactory.4gl" t="F"/>
+<Call c="30" i="itemFactory" l="149" n="processQuery" p="accountFactory.4gl" t="F"/>
+<Call c="34" i="supplierFactory" l="155" n="processQuery" p="accountFactory.4gl" t="F"/>
+<Call c="31" i="orderFactory" l="161" n="processQuery" p="accountFactory.4gl" t="F"/>
+<Call c="30" i="itemFactory" l="167" n="processQuery" p="accountFactory.4gl" t="F"/>
+<Call c="35" l="172" n="getServicesDiscover" t="F"/>
+<Call c="17" i="logger" l="190" n="logEvent" t="F"/>
+</Fct>
+<Todo l="62" t=" Explore &quot;wrapped&quot; responses&#13;"/>
+<Todo l="63" t=" Implement pagination(Range header vs. query-string(offset and limit)?&#13;"/>
+<Todo l="64" t=" Content range responses?&#13;"/>
+<Todo l="65" t=" Need to implement filtering(query)?&#13;"/>
+<Todo l="66" t=" What about sorting?&#13;"/>
+<Todo l="67" t=" Review/rewrite request parsing, perhaps in a global/moduler record scope?&#13;"/>
+<Todo l="68" t=" Schema should not be revealed, rather it should be abstracted&#13;"/>
+<Todo l="108" t=" Set INPUT/OUTPUT message formats&#13;"/>
+<Todo l="366" t=" Is parseRequest(url) used now?&#13;"/>
+<Todo l="389" t=" Is parseQueryString() used now?&#13;"/>
+<Todo l="415" t=" Is extractKeyValueFromQuery() used now?&#13;"/>
+<Todo l="430" t=" for future in determining request format(JSON/XML)&#13;"/>
+<Todo l="444" t=" for future in determining response format(JSON/XML)&#13;"/>
+<Bug l="100" t="stuff&#13;"/>
+<Bug l="106" t="stuff&#13;"/>
+</File>
+<File m="itemFactory" n="itemFactory.4gl" ts="20170801103921587">
+<Fct c="10" el="85" l="32" n="processQuery(queryFilter STRING)" t="F">
+<Call c="24" i="orderItem" l="47" n="initQuery" t="F"/>
+<Call c="32" i="orderItem" l="51" n="setQueryID" t="F"/>
+<Call c="28" i="orderItem" l="64" n="getRecords" t="F"/>
+<Call c="50" i="orderItem" l="67" n="getJSONEncoding" t="F"/>
+</Fct>
+</File>
+<File m="orderFactory" n="orderFactory.4gl" ts="20170801103931019">
+<Fct c="10" el="84" l="32" n="processQuery(queryFilter STRING)" t="F">
+<Call c="20" i="order" l="47" n="initQuery" t="F"/>
+<Call c="28" i="order" l="51" n="setQueryID" t="F"/>
+<Call c="24" i="order" l="64" n="getRecords" t="F"/>
+<Call c="46" i="order" l="67" n="getJSONEncoding" t="F"/>
+</Fct>
+</File>
+<File m="supplierFactory" n="supplierFactory.4gl" ts="20170801103942522">
+<Fct c="10" el="85" l="32" n="processQuery(queryFilter STRING)" t="F">
+<Call c="23" i="supplier" l="48" n="initQuery" t="F"/>
+<Call c="31" i="supplier" l="52" n="setQueryID" t="F"/>
+<Call c="27" i="supplier" l="65" n="getRecords" t="F"/>
+<Call c="49" i="supplier" l="68" n="getJSONEncoding" t="F"/>
+</Fct>
+</File>
+</WorkspaceDatabase>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WorkspaceViewState version="1.0">
+  <ExpandedNodes>
+    <Node path="officeStoreDomain.4pw" type="pm/main-project"/>
+    <Node path="officeStoreDomain.4pw/domainClasses" type="pm/group"/>
+    <Node path="officeStoreDomain.4pw/domainClasses/accountClass.4pw/accountDomain/account" type="pm/library"/>
+    <Node path="officeStoreDomain.4pw/domainClasses/supplierClass.4pw/supplierDomain" type="pm/group"/>
+  </ExpandedNodes>
+  <OpenDocuments/>
+  <CurrentDocument filePath="" module="mod-wp"/>
+</WorkspaceViewState>

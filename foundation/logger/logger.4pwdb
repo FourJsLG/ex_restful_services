@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WorkspaceDatabase fileContentsEncoding="CP1252" version="2.0">
+<File m="logger" n="logger.4gl" ts="20170803182300741">
+<Fct c="18" el="184" l="153" n="defaultLogger(logCategory INTEGER,logClass STRING,logEvent STRING,logMessage STRING)" t="F"/>
+<Fct c="17" el="131" l="102" n="initializeLog(logLevel STRING,logPath STRING,logFile STRING)" t="F">
+<Call c="16" l="117" n="checkPath" t="F"/>
+<Call c="10" l="127" n="setLoggerFunction" t="F"/>
+<Call c="37" l="127" n="defaultLogger" t="F"/>
+</Fct>
+<Fct c="18" el="86" l="58" n="checkPath(path STRING)" t="F">
+<Call c="16" l="75" n="checkPath" t="F"/>
+</Fct>
+<Fct c="17" el="45" l="43" n="logEvent(logCategory INTEGER,logClass STRING,logEvent STRING,logMessage STRING)" t="F"/>
+<Fct c="17" el="40" l="38" n="setLoggerFunction(functionName FUNCTION (logCategory:INTEGER,logClass:STRING,logEvent:STRING,logMessage:STRING))" t="F"/>
+<Bug l="42" t="FGL-4665 This is a temporary workaround for "/>
+<Bug l="95" t="level"/>
+<Bug l="144" t=": logs everything"/>
+</File>
+<File m="loggerTest" n="loggerTest.4gl" ts="20170728063453095">
+<Dep t="logger.4gl"/>
+<Fct c="10" el="18" l="16" n="localLogger(logCategory INTEGER,logClass STRING,logEvent STRING,logMessage STRING)" t="F"/>
+<Fct c="1" el="14" l="2" n="main()" t="F">
+<Call c="17" i="logger" l="5" n="initializelog" p="logger.4gl" t="F"/>
+<Call c="17" i="logger" l="8" n="logEvent" p="logger.4gl" t="F"/>
+<Call c="17" i="logger" l="11" n="setLoggerFunction" p="logger.4gl" t="F"/>
+<Call c="44" l="11" n="localLogger" t="F"/>
+<Call c="17" i="logger" l="12" n="logEvent" p="logger.4gl" t="F"/>
+</Fct>
+</File>
+</WorkspaceDatabase>

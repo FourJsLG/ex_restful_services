@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MANIFEST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.4js.com/ns/gas/3.00/mf.xsd">
+  <DESCRIPTION>REST Server</DESCRIPTION>
+  <SERVICE xcf="restServer.xcf" />
+</MANIFEST>

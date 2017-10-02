@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WorkspaceViewState version="1.0">
+  <ExpandedNodes>
+    <Node path="accountClass.4pw" type="pm/main-project"/>
+    <Node path="accountClass.4pw/accountDomain" type="pm/group"/>
+    <Node path="accountClass.4pw/accountDomain/account" type="pm/library"/>
+    <Node path="accountClass.4pw/accountDomain/database" type="pm/library"/>
+  </ExpandedNodes>
+  <OpenDocuments>
+    <Document container="true" filePath="../../database/officestore.4db" locator="" module="mod-db3"/>
+  </OpenDocuments>
+  <CurrentDocument filePath="../../database/officestore.4db" module="mod-db3"/>
+</WorkspaceViewState>

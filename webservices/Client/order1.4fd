@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm databaseName="officestore" fileVersion="30a00" gstVersion="30a06" name="managedform" uid="{b5d377b0-88d1-4ba5-9c51-f94d7d1218bd}">
+  <AGSettings>
+    <DynamicProperties version="2"/>
+  </AGSettings>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" masterTable="orders" name="record1" order="" uid="{f5645042-293b-4775-979c-8503524f4f09}" where="">
+    <RecordField colName="orderid" fieldIdRef="1" fieldType="TABLE_COLUMN" name="orders.orderid" sqlTabName="orders" table_alias_name="" uid="{ba0bf061-6cf8-4c57-92a2-db87e3f78d72}"/>
+    <RecordField colName="userid" fieldIdRef="2" fieldType="TABLE_COLUMN" name="orders.userid" sqlTabName="orders" table_alias_name="" uid="{8140542c-d660-45e1-b959-ecc27ed499e8}"/>
+    <RecordField colName="orderdate" fieldIdRef="3" fieldType="TABLE_COLUMN" name="orders.orderdate" sqlTabName="orders" table_alias_name="" uid="{6f61ed14-a136-4c5e-9bb2-0cf2e0869929}"/>
+    <RecordField colName="shipfirstname" fieldIdRef="4" fieldType="TABLE_COLUMN" name="orders.shipfirstname" sqlTabName="orders" table_alias_name="" uid="{13095fc1-490e-49fc-ad87-95be3e46b9fd}"/>
+    <RecordField colName="shiplastname" fieldIdRef="5" fieldType="TABLE_COLUMN" name="orders.shiplastname" sqlTabName="orders" table_alias_name="" uid="{8607dd85-6f97-4d48-9781-d18f2ce253c0}"/>
+    <RecordField colName="shipaddr1" fieldIdRef="6" fieldType="TABLE_COLUMN" name="orders.shipaddr1" sqlTabName="orders" table_alias_name="" uid="{588ae25b-1c1a-42ba-bbd8-71dd4a2de380}"/>
+    <RecordField colName="shipaddr2" fieldIdRef="7" fieldType="TABLE_COLUMN" name="orders.shipaddr2" sqlTabName="orders" table_alias_name="" uid="{fb0e1b08-aa01-41a1-9e50-b55b6a77f7c1}"/>
+    <RecordField colName="shipcity" fieldIdRef="8" fieldType="TABLE_COLUMN" name="orders.shipcity" sqlTabName="orders" table_alias_name="" uid="{4ab3dec6-0ab4-43e6-8eff-52244a4a6c2d}"/>
+    <RecordField colName="shipstate" fieldIdRef="9" fieldType="TABLE_COLUMN" name="orders.shipstate" sqlTabName="orders" table_alias_name="" uid="{d2b95fb9-67ec-471a-a957-72db4981c586}"/>
+    <RecordField colName="shipzip" fieldIdRef="10" fieldType="TABLE_COLUMN" name="orders.shipzip" sqlTabName="orders" table_alias_name="" uid="{662198b4-c55b-4ff7-9dea-9847837236ea}"/>
+    <RecordField colName="shipcountry" fieldIdRef="11" fieldType="TABLE_COLUMN" name="orders.shipcountry" sqlTabName="orders" table_alias_name="" uid="{0f07038d-036d-4561-a057-bdbdfd15a2b5}"/>
+    <RecordField colName="billfirstname" fieldIdRef="12" fieldType="TABLE_COLUMN" name="orders.billfirstname" sqlTabName="orders" table_alias_name="" uid="{01169f59-3774-4ddb-ac23-24d4907c3dd4}"/>
+    <RecordField colName="billlastname" fieldIdRef="13" fieldType="TABLE_COLUMN" name="orders.billlastname" sqlTabName="orders" table_alias_name="" uid="{f10d56e3-c5d4-4d21-b515-7208a905da7d}"/>
+    <RecordField colName="billaddr1" fieldIdRef="14" fieldType="TABLE_COLUMN" name="orders.billaddr1" sqlTabName="orders" table_alias_name="" uid="{c18759af-29fe-451b-9f25-44e0be005d53}"/>
+    <RecordField colName="billaddr2" fieldIdRef="15" fieldType="TABLE_COLUMN" name="orders.billaddr2" sqlTabName="orders" table_alias_name="" uid="{ee792dd9-73a6-4af7-b1ac-a73554a8df0f}"/>
+    <RecordField colName="billcity" fieldIdRef="16" fieldType="TABLE_COLUMN" name="orders.billcity" sqlTabName="orders" table_alias_name="" uid="{b1b44676-229f-4c5f-947a-f50fe7d74c12}"/>
+    <RecordField colName="billstate" fieldIdRef="17" fieldType="TABLE_COLUMN" name="orders.billstate" sqlTabName="orders" table_alias_name="" uid="{e269242f-0f9b-4f59-b49d-f69e40c679e2}"/>
+    <RecordField colName="billzip" fieldIdRef="18" fieldType="TABLE_COLUMN" name="orders.billzip" sqlTabName="orders" table_alias_name="" uid="{3c89f1bf-50e6-4071-950e-d68a0e48d68d}"/>
+    <RecordField colName="billcountry" fieldIdRef="19" fieldType="TABLE_COLUMN" name="orders.billcountry" sqlTabName="orders" table_alias_name="" uid="{4064db43-499e-4f84-8bb2-d4ee8b8841d3}"/>
+    <RecordField colName="totalprice" fieldIdRef="20" fieldType="TABLE_COLUMN" name="orders.totalprice" sqlTabName="orders" table_alias_name="" uid="{f449e2b9-2e79-4861-bdb8-d38c3e63edff}"/>
+    <RecordField colName="creditcard" fieldIdRef="21" fieldType="TABLE_COLUMN" name="orders.creditcard" sqlTabName="orders" table_alias_name="" uid="{7d8f3fee-4090-4eff-baf1-f4eccdd23f12}"/>
+    <RecordField colName="exprdate" fieldIdRef="22" fieldType="TABLE_COLUMN" name="orders.exprdate" sqlTabName="orders" table_alias_name="" uid="{1f8e0ded-0d55-4d17-bc09-0d0493f826f6}"/>
+    <RecordField colName="cardtype" fieldIdRef="23" fieldType="TABLE_COLUMN" name="orders.cardtype" sqlTabName="orders" table_alias_name="" uid="{18951a88-3099-40f5-85d0-96ec24636904}"/>
+    <RecordField colName="sourceapp" fieldIdRef="24" fieldType="TABLE_COLUMN" name="orders.sourceapp" sqlTabName="orders" table_alias_name="" uid="{c4326d0b-b7ff-455b-8baf-6590d83aae7a}"/>
+  </Record>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="record2" order="" uid="{f93f1da8-cf80-492e-ac5f-393c3c913a99}" where="">
+    <RecordField colName="itemid" fieldIdRef="27" fieldType="TABLE_ALIAS" name="items1.itemid" sqlTabName="lineitem" table_alias_name="items1" uid="{3003f661-3fe5-4e39-a9fb-9dae019f5a24}"/>
+    <RecordField colName="quantity" fieldIdRef="25" fieldType="TABLE_ALIAS" name="items1.quantity" sqlTabName="lineitem" table_alias_name="items1" uid="{f852ea9b-2c0c-4feb-abe9-3be201063b90}"/>
+    <RecordField colName="unitprice" fieldIdRef="26" fieldType="TABLE_ALIAS" name="items1.unitprice" sqlTabName="lineitem" table_alias_name="items1" uid="{75f6b7db-3e73-4f1e-9fbe-18570e41a0af}"/>
+  </Record>
+  <Form gridHeight="41" gridWidth="146" name="form" text="Order Detail">
+    <VBox gridHeight="30" gridWidth="66" name="vbox1" posX="3" posY="1">
+      <Group gridHeight="15" gridWidth="66" name="group1" posX="0" posY="1" text="">
+        <Folder gridHeight="13" gridWidth="63" name="folder1" posX="2" posY="1">
+          <Page name="page1" text="Summary">
+            <Grid gridHeight="10" gridWidth="56" name="officestore1" posX="1" posY="1">
+              <Label gridHeight="1" gridWidth="13" name="orders_orderid_label1" posX="1" posY="1" text="Order ID">
+                <Initializer text="dbschema:orders.orderid/@label"/>
+              </Label>
+              <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="orderid" fieldId="1" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="11" name="orders.orderid" posX="15" posY="1" repeat="false" scroll="true" sqlTabName="orders" tabIndex="1" table_alias_name="" widget="Edit">
+                <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+              </Edit>
+              <Label gridHeight="1" gridWidth="13" name="orders_userid_label1" posX="1" posY="2" text="User ID">
+                <Initializer text="dbschema:orders.userid/@label"/>
+              </Label>
+              <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="userid" fieldId="2" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="30" name="orders.userid" posX="15" posY="2" repeat="false" scroll="true" sqlTabName="orders" tabIndex="2" table_alias_name="" widget="Edit">
+                <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+              </Edit>
+              <Label gridHeight="1" gridWidth="13" name="orders_orderdate_label1" posX="1" posY="3" text="Date">
+                <Initializer text="dbschema:orders.orderdate/@label"/>
+              </Label>
+              <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="orderdate" fieldId="3" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="10" name="orders.orderdate" posX="15" posY="3" repeat="false" scroll="true" sqlTabName="orders" tabIndex="3" table_alias_name="" widget="Edit">
+                <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+              </Edit>
+              <Label gridHeight="1" gridWidth="13" name="orders_totalprice_label1" posX="1" posY="4" text="Total">
+                <Initializer text="dbschema:orders.totalprice/@label"/>
+              </Label>
+              <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="totalprice" fieldId="20" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="12" name="orders.totalprice" posX="15" posY="4" repeat="false" scroll="true" sqlTabName="orders" tabIndex="20" table_alias_name="" widget="Edit">
+                <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+              </Edit>
+              <Label gridHeight="1" gridWidth="13" name="orders_creditcard_label1" posX="1" posY="5" text="Credit Card#">
+                <Initializer text="dbschema:orders.creditcard/@label"/>
+              </Label>
+              <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="creditcard" fieldId="21" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="30" name="orders.creditcard" posX="15" posY="5" repeat="false" scroll="true" sqlTabName="orders" tabIndex="21" table_alias_name="" widget="Edit">
+                <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+              </Edit>
+              <Label gridHeight="1" gridWidth="13" name="orders_exprdate_label1" posX="1" posY="6" text="Exp. Date">
+                <Initializer text="dbschema:orders.exprdate/@label"/>
+              </Label>
+              <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="exprdate" fieldId="22" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="7" name="orders.exprdate" posX="15" posY="6" repeat="false" scroll="true" sqlTabName="orders" tabIndex="22" table_alias_name="" widget="Edit">
+                <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+              </Edit>
+              <Label gridHeight="1" gridWidth="13" name="orders_cardtype_label1" posX="1" posY="7" text="Card Type">
+                <Initializer text="dbschema:orders.cardtype/@label"/>
+              </Label>
+              <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="cardtype" fieldId="23" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="30" name="orders.cardtype" posX="15" posY="7" repeat="false" scroll="true" sqlTabName="orders" tabIndex="23" table_alias_name="" widget="Edit">
+                <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+              </Edit>
+              <Label gridHeight="1" gridWidth="13" name="orders_sourceapp_label1" posX="1" posY="8" text="Source App.">
+                <Initializer text="dbschema:orders.sourceapp/@label"/>
+              </Label>
+              <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="sourceapp" fieldId="24" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="3" name="orders.sourceapp" posX="15" posY="8" repeat="false" scroll="true" sqlTabName="orders" tabIndex="24" table_alias_name="" widget="Edit">
+                <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+              </Edit>
+            </Grid>
+          </Page>
+          <Page name="page2" text="Shipping">
+            <Grid gridHeight="11" gridWidth="51" name="grid1" posX="1" posY="1">
+              <Label gridHeight="1" gridWidth="13" name="orders_shipfirstname_label1" posX="2" posY="1" text="First/Co. Name">
+                <Initializer text="dbschema:orders.shipfirstname/@label"/>
+              </Label>
+              <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="shipfirstname" fieldId="4" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="30" name="orders.shipfirstname" posX="16" posY="1" scroll="true" sqlTabName="orders" tabIndex="4" table_alias_name="" widget="Edit">
+                <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+              </Edit>
+              <Label gridHeight="1" gridWidth="13" name="orders_shiplastname_label1" posX="2" posY="2" text="Last Name">
+                <Initializer text="dbschema:orders.shiplastname/@label"/>
+              </Label>
+              <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="shiplastname" fieldId="5" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="30" name="orders.shiplastname" posX="16" posY="2" scroll="true" sqlTabName="orders" tabIndex="5" table_alias_name="" widget="Edit">
+                <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+              </Edit>
+              <Label gridHeight="1" gridWidth="13" name="orders_shipaddr1_label1" posX="2" posY="3" text="Address Line 1">
+                <Initializer text="dbschema:orders.shipaddr1/@label"/>
+              </Label>
+              <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="shipaddr1" fieldId="6" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="30" name="orders.shipaddr1" posX="16" posY="3" scroll="true" sqlTabName="orders" tabIndex="6" table_alias_name="" widget="Edit">
+                <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+              </Edit>
+              <Label gridHeight="1" gridWidth="13" name="orders_shipaddr2_label1" posX="2" posY="4" text="Address Line 2">
+                <Initializer text="dbschema:orders.shipaddr2/@label"/>
+              </Label>
+              <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="shipaddr2" fieldId="7" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="30" name="orders.shipaddr2" posX="16" posY="4" scroll="true" sqlTabName="orders" tabIndex="7" table_alias_name="" widget="Edit">
+                <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+              </Edit>
+              <Label gridHeight="1" gridWidth="13" name="orders_shipcity_label1" posX="2" posY="5" text="City">
+                <Initializer text="dbschema:orders.shipcity/@label"/>
+              </Label>
+              <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="shipcity" fieldId="8" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="30" name="orders.shipcity" posX="16" posY="5" scroll="true" sqlTabName="orders" tabIndex="8" table_alias_name="" widget="Edit">
+                <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+              </Edit>
+              <Label gridHeight="1" gridWidth="13" name="orders_shipstate_label1" posX="2" posY="6" text="State/Prov.">
+                <Initializer text="dbschema:orders.shipstate/@label"/>
+              </Label>
+              <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="shipstate" fieldId="9" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="30" name="orders.shipstate" posX="16" posY="6" scroll="true" sqlTabName="orders" tabIndex="9" table_alias_name="" widget="Edit">
+                <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+              </Edit>
+              <Label gridHeight="1" gridWidth="13" name="orders_shipzip_label1" posX="2" posY="7" text="Postal Cd.">
+                <Initializer text="dbschema:orders.shipzip/@label"/>
+              </Label>
+              <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="shipzip" fieldId="10" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="20" name="orders.shipzip" posX="26" posY="7" scroll="true" sqlTabName="orders" tabIndex="10" table_alias_name="" widget="Edit">
+                <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+              </Edit>
+              <Label gridHeight="1" gridWidth="13" name="orders_shipcountry_label1" posX="2" posY="8" text="Country">
+                <Initializer text="dbschema:orders.shipcountry/@label"/>
+              </Label>
+              <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="shipcountry" fieldId="11" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="3" name="orders.shipcountry" posX="43" posY="8" scroll="true" sqlTabName="orders" tabIndex="11" table_alias_name="" widget="Edit">
+                <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+              </Edit>
+            </Grid>
+          </Page>
+          <Page name="page3" text="Billing">
+            <Grid gridHeight="11" gridWidth="51" name="grid2" posX="1" posY="1">
+              <Label gridHeight="1" gridWidth="13" name="orders_billfirstname_label1" posX="2" posY="1" text="First/Co. Name">
+                <Initializer text="dbschema:orders.billfirstname/@label"/>
+              </Label>
+              <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="billfirstname" fieldId="12" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="30" name="orders.billfirstname" posX="16" posY="1" scroll="true" sqlTabName="orders" tabIndex="12" table_alias_name="" widget="Edit">
+                <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+              </Edit>
+              <Label gridHeight="1" gridWidth="13" name="orders_billlastname_label1" posX="2" posY="2" text="Last Name">
+                <Initializer text="dbschema:orders.billlastname/@label"/>
+              </Label>
+              <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="billlastname" fieldId="13" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="30" name="orders.billlastname" posX="16" posY="2" scroll="true" sqlTabName="orders" tabIndex="13" table_alias_name="" widget="Edit">
+                <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+              </Edit>
+              <Label gridHeight="1" gridWidth="13" name="orders_billaddr1_label1" posX="2" posY="3" text="Address Line 1">
+                <Initializer text="dbschema:orders.billaddr1/@label"/>
+              </Label>
+              <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="billaddr1" fieldId="14" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="30" name="orders.billaddr1" posX="16" posY="3" scroll="true" sqlTabName="orders" tabIndex="14" table_alias_name="" widget="Edit">
+                <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+              </Edit>
+              <Label gridHeight="1" gridWidth="13" name="orders_billaddr2_label1" posX="2" posY="4" text="Address Line 2">
+                <Initializer text="dbschema:orders.billaddr2/@label"/>
+              </Label>
+              <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="billaddr2" fieldId="15" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="30" name="orders.billaddr2" posX="16" posY="4" scroll="true" sqlTabName="orders" tabIndex="15" table_alias_name="" widget="Edit">
+                <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+              </Edit>
+              <Label gridHeight="1" gridWidth="13" name="orders_billcity_label1" posX="2" posY="5" text="City">
+                <Initializer text="dbschema:orders.billcity/@label"/>
+              </Label>
+              <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="billcity" fieldId="16" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="30" name="orders.billcity" posX="16" posY="5" scroll="true" sqlTabName="orders" tabIndex="16" table_alias_name="" widget="Edit">
+                <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+              </Edit>
+              <Label gridHeight="1" gridWidth="13" name="orders_billstate_label1" posX="2" posY="6" text="State/Prov.">
+                <Initializer text="dbschema:orders.billstate/@label"/>
+              </Label>
+              <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="billstate" fieldId="17" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="30" name="orders.billstate" posX="16" posY="6" scroll="true" sqlTabName="orders" tabIndex="17" table_alias_name="" widget="Edit">
+                <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+              </Edit>
+              <Label gridHeight="1" gridWidth="13" name="orders_billzip_label1" posX="2" posY="7" text="Postal Cd.">
+                <Initializer text="dbschema:orders.billzip/@label"/>
+              </Label>
+              <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="billzip" fieldId="18" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="20" name="orders.billzip" posX="26" posY="7" scroll="true" sqlTabName="orders" tabIndex="18" table_alias_name="" widget="Edit">
+                <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+              </Edit>
+              <Label gridHeight="1" gridWidth="13" name="orders_billcountry_label1" posX="2" posY="8" text="Country">
+                <Initializer text="dbschema:orders.billcountry/@label"/>
+              </Label>
+              <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="billcountry" fieldId="19" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="3" name="orders.billcountry" posX="43" posY="8" scroll="true" sqlTabName="orders" tabIndex="19" table_alias_name="" widget="Edit">
+                <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+              </Edit>
+            </Grid>
+          </Page>
+        </Folder>
+      </Group>
+      <Group gridHeight="13" gridWidth="66" name="group2" posX="0" posY="16" text="Line Items">
+        <Table gridHeight="11" gridWidth="51" name="table1" posX="1" posY="1" totalRows="5">
+          <Edit colName="itemid" fieldId="27" fieldType="TABLE_ALIAS" gridHeight="1" gridWidth="8" name="items1.itemid" posX="0" posY="0" sqlTabName="lineitem" tabIndex="-1" table_alias_name="items1" title="ItemID" widget="Edit"/>
+          <Edit colName="quantity" fieldId="25" fieldType="TABLE_ALIAS" gridHeight="1" gridWidth="8" name="items1.quantity" posX="8" posY="0" sqlTabName="lineitem" tabIndex="-1" table_alias_name="items1" title="Quantity" widget="Edit"/>
+          <Edit colName="unitprice" fieldId="26" fieldType="TABLE_ALIAS" gridHeight="1" gridWidth="8" name="items1.unitprice" posX="16" posY="0" sqlTabName="lineitem" tabIndex="-1" table_alias_name="items1" title="Unit Price" widget="Edit"/>
+        </Table>
+      </Group>
+    </VBox>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewBmADUANgA0ADUAMAA0ADIALQAyADkAMwBiAC0ANAA3ADcANQAtADkANwA5AGMALQA4ADUAMAAzADUAMgA0AGYANABmADAAOQB9AAAAAAAAAAAAAAAAAAAAAD+TdLxqfvneAQAAAEwAewBmADkAMwBmADEAZABhADgALQBjAGYAOAAwAC0ANAA5ADIAZQAtAGEAYwA1AGYALQAzADkAMwBjADMAYwA5ADEAMwBhADkAOQB9QGngAAAAAABAWAAAAAAAAD+uNT987ZFvAQ==]]>
+  </DiagramLayout>
+</ManagedForm>

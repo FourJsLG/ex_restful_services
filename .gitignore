@@ -1,0 +1,15 @@
+#OS junk Files
+[Tt]humbs.db
+*.DS_Store
+
+#Genero Files
+*.bak
+*.log
+*.42?
+*.gar
+
+#Subversion Files
+.svn
+
+# Office Temp Files
+~$*

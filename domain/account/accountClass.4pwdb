@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WorkspaceDatabase fileContentsEncoding="CP1252" version="2.0">
+<File m="account" n="account.4gl" ts="20170918145657362">
+<Ref t="accountTypes.inc"/>
+<Fct c="10" el="395" l="393" n="setQueryLname(thisID STRING)" t="F"/>
+<Fct c="10" el="391" l="389" n="setQueryFname(thisID STRING)" t="F"/>
+<Fct c="10" el="387" l="385" n="setQueryid(thisID STRING)" t="F"/>
+<Fct c="10" el="383" l="381" n="initQuery()" t="F"/>
+<Fct c="18" el="376" l="362" n="deleteRecordById(thisData STRING)" t="F"/>
+<Fct c="10" el="344" l="321" n="processRecordsDelete(thisData STRING)" t="F">
+<Call c="15" l="335" n="deleteRecordById" t="F"/>
+</Fct>
+<Fct c="18" el="303" l="287" n="insertRecord(thisData STRING)" t="F"/>
+<Fct c="10" el="268" l="244" n="processRecordsInsert(thisData STRING)" t="F">
+<Call c="18" l="258" n="insertRecord" t="F"/>
+</Fct>
+<Fct c="18" el="226" l="208" n="updateRecordById(thisData STRING)" t="F"/>
+<Fct c="10" el="190" l="158" n="processRecordsUpdate(thisData STRING)" t="F">
+<Call c="18" l="173" n="updateRecordById" t="F"/>
+</Fct>
+<Fct c="10" el="140" l="138" n="getRecordsList()" t="F"/>
+<Fct c="10" el="120" l="118" n="init()" t="F"/>
+<Fct c="10" el="101" l="99" n="getJSONEncoding()" t="F"/>
+<Fct c="10" el="82" l="53" n="getRecords()" t="F"/>
+<Todo l="35" t=" determine if mutators should be used instead; should be PRIVATE; how to do this for an array&#13;"/>
+<Todo l="187" t=" formulate a JSON style response for an update&#13;"/>
+<Todo l="265" t=" formulate a JSON style response for an update&#13;"/>
+<Todo l="300" t=" formulate a JSON style response for an update&#13;"/>
+<Todo l="373" t=" formulate a JSON style response for an update&#13;"/>
+</File>
+<File m="accountTypes" n="accountTypes.inc" ts="20170918145657335"/>
+<File m="tester" n="tester.4gl" ts="20170717083612850">
+<Dep t="account.4gl"/>
+<Fct c="1" el="80" l="5" n="main()" t="F">
+<Call c="22" i="account" l="13" n="setQueryID" p="account.4gl" t="F"/>
+<Call c="22" i="account" l="14" n="getRecords" p="account.4gl" t="F"/>
+<Call c="52" i="account" l="20" n="getJSONEncoding" p="account.4gl" t="F"/>
+<Call c="43" i="account" l="27" n="getJSONEncoding" p="account.4gl" t="F"/>
+<Call c="14" l="27" n="processRecordsUpdate" p="account.4gl" t="F"/>
+<Call c="22" i="account" l="28" n="getRecords" p="account.4gl" t="F"/>
+<Call c="57" i="account" l="29" n="getJSONEncoding" p="account.4gl" t="F"/>
+<Call c="43" i="account" l="33" n="getJSONEncoding" p="account.4gl" t="F"/>
+<Call c="14" l="33" n="processRecordsUpdate" p="account.4gl" t="F"/>
+<Call c="22" i="account" l="34" n="getRecords" p="account.4gl" t="F"/>
+<Call c="58" i="account" l="35" n="getJSONEncoding" p="account.4gl" t="F"/>
+<Call c="22" i="account" l="42" n="init" p="account.4gl" t="F"/>
+<Call c="43" i="account" l="60" n="getJSONEncoding" p="account.4gl" t="F"/>
+<Call c="14" l="60" n="processRecordsInsert" p="account.4gl" t="F"/>
+<Call c="22" i="account" l="61" n="setQueryID" p="account.4gl" t="F"/>
+<Call c="22" i="account" l="62" n="getRecords" p="account.4gl" t="F"/>
+<Call c="57" i="account" l="63" n="getJSONEncoding" p="account.4gl" t="F"/>
+<Call c="22" i="account" l="71" n="init" p="account.4gl" t="F"/>
+<Call c="43" i="account" l="73" n="getJSONEncoding" p="account.4gl" t="F"/>
+<Call c="14" l="73" n="processRecordsDelete" p="account.4gl" t="F"/>
+<Call c="22" i="account" l="74" n="setQueryID" p="account.4gl" t="F"/>
+<Call c="22" i="account" l="75" n="getRecords" p="account.4gl" t="F"/>
+<Call c="123" i="account" l="76" n="getJSONEncoding" p="account.4gl" t="F"/>
+</Fct>
+</File>
+</WorkspaceDatabase>

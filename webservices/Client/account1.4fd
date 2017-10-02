@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm databaseName="officestore" fileVersion="30a00" gstVersion="30a04" name="managedform" uid="{8e9c3c30-636f-483e-8444-6b12c6c09a54}">
+  <AGSettings>
+    <DynamicProperties version="2"/>
+  </AGSettings>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" masterTable="account" name="record1" order="" uid="{365fb64c-6e18-4a58-9912-4e14a7236ef2}" where="">
+    <RecordField colName="userid" fieldIdRef="4" fieldType="TABLE_COLUMN" name="account.userid" sqlTabName="account" table_alias_name="" uid="{b31708d9-0104-4b54-8a5b-b3619a646218}"/>
+    <RecordField colName="email" fieldIdRef="3" fieldType="TABLE_COLUMN" name="account.email" sqlTabName="account" table_alias_name="" uid="{4005310b-0224-4af1-a7cc-39916c336d2a}"/>
+    <RecordField colName="firstname" fieldIdRef="1" fieldType="TABLE_COLUMN" name="account.firstname" sqlTabName="account" table_alias_name="" uid="{81853c5c-ec5b-4ec9-9041-aa6ed0b4c7a7}"/>
+    <RecordField colName="lastname" fieldIdRef="2" fieldType="TABLE_COLUMN" name="account.lastname" sqlTabName="account" table_alias_name="" uid="{97884a39-86cb-4c41-89c5-c99bc9b9dbd7}"/>
+    <RecordField colName="acstatus" fieldIdRef="5" fieldType="TABLE_COLUMN" name="account.acstatus" sqlTabName="account" table_alias_name="" uid="{0cf9db26-b5c8-429b-808a-a53df7540d92}"/>
+    <RecordField colName="addr1" fieldIdRef="6" fieldType="TABLE_COLUMN" name="account.addr1" sqlTabName="account" table_alias_name="" uid="{f9a58188-fa44-4577-b5a1-597e24be6c0a}"/>
+    <RecordField colName="addr2" fieldIdRef="7" fieldType="TABLE_COLUMN" name="account.addr2" sqlTabName="account" table_alias_name="" uid="{7ed2c9c3-c69f-4258-9a9f-258b7fcd4738}"/>
+    <RecordField colName="city" fieldIdRef="8" fieldType="TABLE_COLUMN" name="account.city" sqlTabName="account" table_alias_name="" uid="{bdf46ea8-3eb6-476b-b9b8-7104f31440f2}"/>
+    <RecordField colName="state" fieldIdRef="9" fieldType="TABLE_COLUMN" name="account.state" sqlTabName="account" table_alias_name="" uid="{2290324b-e867-4f40-a031-2308263c3576}"/>
+    <RecordField colName="zip" fieldIdRef="10" fieldType="TABLE_COLUMN" name="account.zip" sqlTabName="account" table_alias_name="" uid="{5028cd19-0755-4f7f-a8d5-af2018abe663}"/>
+    <RecordField colName="country" fieldIdRef="11" fieldType="TABLE_COLUMN" name="account.country" sqlTabName="account" table_alias_name="" uid="{0715adaa-c7e9-4326-99cb-053c98a67522}"/>
+    <RecordField colName="phone" fieldIdRef="12" fieldType="TABLE_COLUMN" name="account.phone" sqlTabName="account" table_alias_name="" uid="{527e7176-fe98-44c1-b3cf-bb992f29610e}"/>
+    <RecordField colName="langpref" fieldIdRef="13" fieldType="TABLE_COLUMN" name="account.langpref" sqlTabName="account" table_alias_name="" uid="{5afa00c5-efb4-4a95-9195-bddd8eff99da}"/>
+    <RecordField colName="favcategory" fieldIdRef="14" fieldType="TABLE_COLUMN" name="account.favcategory" sqlTabName="account" table_alias_name="" uid="{d01fcb0b-cd7b-4438-a690-8b02844a9081}"/>
+    <RecordField colName="mylistopt" fieldIdRef="15" fieldType="TABLE_COLUMN" name="account.mylistopt" sqlTabName="account" table_alias_name="" uid="{0f5bd468-80f2-48bd-8536-b706433269af}"/>
+    <RecordField colName="banneropt" fieldIdRef="16" fieldType="TABLE_COLUMN" name="account.banneropt" sqlTabName="account" table_alias_name="" uid="{8bff6d3d-aec4-47e4-afe4-08b443f566c4}"/>
+    <RecordField colName="sourceapp" fieldIdRef="17" fieldType="TABLE_COLUMN" name="account.sourceapp" sqlTabName="account" table_alias_name="" uid="{4a903513-a081-4aad-b980-eb1c979d5f95}"/>
+  </Record>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" masterTable="account1" name="record2" order="" uid="{91a248ab-5a4b-4684-847b-e30ea45703f2}" where="">
+    <RecordField colName="userid" fieldIdRef="18" fieldType="TABLE_ALIAS" name="account1.userid" sqlTabName="account" table_alias_name="account1" uid="{4ba2fd7f-b390-4fc4-932e-27898275213e}"/>
+    <RecordField colName="addr1" fieldIdRef="19" fieldType="TABLE_ALIAS" name="account1.addr1" sqlTabName="account" table_alias_name="account1" uid="{ea124550-a9f4-483d-8abe-59939c5eec7f}"/>
+    <RecordField colName="addr2" fieldIdRef="20" fieldType="TABLE_ALIAS" name="account1.addr2" sqlTabName="account" table_alias_name="account1" uid="{af1e7dd8-ec73-42fb-afcb-21b176cd690c}"/>
+    <RecordField colName="city" fieldIdRef="21" fieldType="TABLE_ALIAS" name="account1.city" sqlTabName="account" table_alias_name="account1" uid="{a86965c1-d6cf-4a3f-a7bc-1b05c7e8dffc}"/>
+    <RecordField colName="state" fieldIdRef="22" fieldType="TABLE_ALIAS" name="account1.state" sqlTabName="account" table_alias_name="account1" uid="{87413d91-1064-49b4-9fdc-e2d4a6254a0f}"/>
+    <RecordField colName="zip" fieldIdRef="23" fieldType="TABLE_ALIAS" name="account1.zip" sqlTabName="account" table_alias_name="account1" uid="{10bbd295-2424-44ae-b4ed-7a986628952c}"/>
+    <RecordField colName="country" fieldIdRef="24" fieldType="TABLE_ALIAS" name="account1.country" sqlTabName="account" table_alias_name="account1" uid="{826045a8-075f-4edc-a3f4-6a2640d1c9a0}"/>
+    <RecordField colName="langpref" fieldIdRef="25" fieldType="TABLE_ALIAS" name="account1.langpref" sqlTabName="account" table_alias_name="account1" uid="{2bee722f-949f-4e2c-924f-99dbad6a2d42}"/>
+  </Record>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="record3" order="" uid="{f119b729-b8f4-4cd3-ad03-8b1ef4ccd9ea}" where=""/>
+  <Form gridHeight="40" gridWidth="177" name="form" text="Officestore REST Demo">
+    <TopMenu name="topmenu1">
+      <TopMenuGroup name="file" text="File">
+        <TopMenuCommand name="cancel" text="Cancel"/>
+      </TopMenuGroup>
+    </TopMenu>
+    <ToolBar name="toolbar1">
+      <ToolBarItem name="accept"/>
+      <ToolBarItem name="cancel"/>
+    </ToolBar>
+    <VBox gridHeight="29" gridWidth="117" name="vbox1" posX="3" posY="1">
+      <Group gridHeight="11" gridWidth="117" name="group1" posX="0" posY="1" text="Customer List">
+        <Table gridHeight="9" gridWidth="113" name="officestore1" posX="1" posY="1" totalRows="8">
+          <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="firstname" fieldId="1" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="30" name="account.firstname" posX="0" posY="0" scroll="true" sqlTabName="account" tabIndex="1" table_alias_name="" title="First" widget="Edit">
+            <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+          </Edit>
+          <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="lastname" fieldId="2" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="30" name="account.lastname" posX="30" posY="0" scroll="true" sqlTabName="account" tabIndex="2" table_alias_name="" title="Last" widget="Edit">
+            <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+          </Edit>
+          <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="email" fieldId="3" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="30" name="account.email" posX="60" posY="0" scroll="true" sqlTabName="account" tabIndex="3" table_alias_name="" title="Email" widget="Edit">
+            <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+          </Edit>
+          <Phantom colName="userid" fieldId="4" fieldType="TABLE_COLUMN" name="account.userid" sqlTabName="account" table_alias_name="" widget="Phantom"/>
+          <Phantom colName="acstatus" fieldId="5" fieldType="TABLE_COLUMN" name="account.acstatus" sqlTabName="account" table_alias_name="" widget="Phantom"/>
+          <Phantom colName="addr1" fieldId="6" fieldType="TABLE_COLUMN" name="account.addr1" sqlTabName="account" table_alias_name="" widget="Phantom"/>
+          <Phantom colName="addr2" fieldId="7" fieldType="TABLE_COLUMN" name="account.addr2" sqlTabName="account" table_alias_name="" widget="Phantom"/>
+          <Phantom colName="city" fieldId="8" fieldType="TABLE_COLUMN" name="account.city" sqlTabName="account" table_alias_name="" widget="Phantom"/>
+          <Phantom colName="state" fieldId="9" fieldType="TABLE_COLUMN" name="account.state" sqlTabName="account" table_alias_name="" widget="Phantom"/>
+          <Phantom colName="zip" fieldId="10" fieldType="TABLE_COLUMN" name="account.zip" sqlTabName="account" table_alias_name="" widget="Phantom"/>
+          <Phantom colName="country" fieldId="11" fieldType="TABLE_COLUMN" name="account.country" sqlTabName="account" table_alias_name="" widget="Phantom"/>
+          <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="phone" fieldId="12" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="18" name="account.phone" posX="90" posY="0" sqlTabName="account" tabIndex="4" table_alias_name="" title="Phone" widget="Edit"/>
+          <Phantom colName="langpref" fieldId="13" fieldType="TABLE_COLUMN" name="account.langpref" sqlTabName="account" table_alias_name="" widget="Phantom"/>
+          <Phantom colName="favcategory" fieldId="14" fieldType="TABLE_COLUMN" name="account.favcategory" sqlTabName="account" table_alias_name="" widget="Phantom"/>
+          <Phantom colName="mylistopt" fieldId="15" fieldType="TABLE_COLUMN" name="account.mylistopt" sqlTabName="account" table_alias_name="" widget="Phantom"/>
+          <Phantom colName="banneropt" fieldId="16" fieldType="TABLE_COLUMN" name="account.banneropt" sqlTabName="account" table_alias_name="" widget="Phantom"/>
+          <Phantom colName="sourceapp" fieldId="17" fieldType="TABLE_COLUMN" name="account.sourceapp" sqlTabName="account" table_alias_name="" widget="Phantom"/>
+        </Table>
+      </Group>
+      <Group gridHeight="16" gridWidth="117" name="group2" posX="0" posY="12" text="Detail">
+        <Grid gridHeight="12" gridWidth="111" name="officestore2" posX="3" posY="1">
+          <Label gridHeight="1" gridWidth="9" name="account1_userid_label1" posX="1" posY="1" text="UserID">
+            <Initializer text="dbschema:account.userid/@label"/>
+          </Label>
+          <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="userid" fieldId="18" fieldType="TABLE_ALIAS" gridHeight="1" gridWidth="30" name="account1.userid" posX="11" posY="1" scroll="true" sqlTabName="account" tabIndex="5" table_alias_name="account1" title="UserID" widget="Edit">
+            <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+          </Edit>
+          <Label gridHeight="1" gridWidth="9" name="account1_addr1_label1" posX="1" posY="2" text="Address 1">
+            <Initializer text="dbschema:account.addr1/@label"/>
+          </Label>
+          <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="addr1" fieldId="19" fieldType="TABLE_ALIAS" gridHeight="1" gridWidth="30" name="account1.addr1" posX="11" posY="2" scroll="true" sqlTabName="account" tabIndex="6" table_alias_name="account1" title="Address 1" widget="Edit">
+            <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+          </Edit>
+          <Label gridHeight="1" gridWidth="9" name="account1_addr2_label1" posX="1" posY="3" text="Address 2">
+            <Initializer text="dbschema:account.addr2/@label"/>
+          </Label>
+          <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="addr2" fieldId="20" fieldType="TABLE_ALIAS" gridHeight="1" gridWidth="30" name="account1.addr2" posX="11" posY="3" scroll="true" sqlTabName="account" tabIndex="7" table_alias_name="account1" title="Address 2" widget="Edit">
+            <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+          </Edit>
+          <Label gridHeight="1" gridWidth="9" name="account1_city_label1" posX="1" posY="4" text="City">
+            <Initializer text="dbschema:account.city/@label"/>
+          </Label>
+          <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="city" fieldId="21" fieldType="TABLE_ALIAS" gridHeight="1" gridWidth="30" name="account1.city" posX="11" posY="4" scroll="true" sqlTabName="account" tabIndex="8" table_alias_name="account1" title="City" widget="Edit">
+            <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+          </Edit>
+          <Label gridHeight="1" gridWidth="5" name="account1_state_label1" posX="42" posY="4" text="State">
+            <Initializer text="dbschema:account.state/@label"/>
+          </Label>
+          <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="state" fieldId="22" fieldType="TABLE_ALIAS" gridHeight="1" gridWidth="8" name="account1.state" posX="48" posY="4" scroll="true" sqlTabName="account" tabIndex="9" table_alias_name="account1" title="State" widget="Edit">
+            <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+          </Edit>
+          <Label gridHeight="1" gridWidth="4" name="account1_zip_label1" posX="57" posY="4" text="ZIP">
+            <Initializer text="dbschema:account.zip/@label"/>
+          </Label>
+          <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="zip" fieldId="23" fieldType="TABLE_ALIAS" gridHeight="1" gridWidth="10" name="account1.zip" posX="62" posY="4" scroll="true" sqlTabName="account" tabIndex="10" table_alias_name="account1" title="ZIP" widget="Edit">
+            <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+          </Edit>
+          <Label gridHeight="1" gridWidth="5" name="account1_country_label1" posX="73" posY="4" text="Ctry">
+            <Initializer text="dbschema:account.country/@label"/>
+          </Label>
+          <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="country" fieldId="24" fieldType="TABLE_ALIAS" gridHeight="1" gridWidth="3" name="account1.country" posX="79" posY="4" scroll="true" sqlTabName="account" tabIndex="11" table_alias_name="account1" title="Ctry" widget="Edit">
+            <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+          </Edit>
+          <Label gridHeight="1" gridWidth="9" name="account1_langpref_label1" posX="1" posY="5" text="Language">
+            <Initializer text="dbschema:account.langpref/@label"/>
+          </Label>
+          <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="langpref" fieldId="25" fieldType="TABLE_ALIAS" gridHeight="1" gridWidth="30" name="account1.langpref" posX="11" posY="5" scroll="true" sqlTabName="account" tabIndex="12" table_alias_name="account1" title="Lang" widget="Edit">
+            <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+          </Edit>
+        </Grid>
+      </Group>
+    </VBox>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewA5ADEAYQAyADQAOABhAGIALQA1AGEANABiAC0ANAA2ADgANAAtADgANAA3AGIALQBlADMAMABlAGEANAA1ADcAMAAzAGYAMgB9QGmAAAAAAABAacAAAAAAAD+an752yLQ+AQAAAEwAewAzADYANQBmAGIANgA0AGMALQA2AGUAMQA4AC0ANABhADUAOAAtADkAOQAxADIALQA0AGUAMQA0AGEANwAyADMANgBlAGYAMgB9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAEwAewBmADEAMQA5AGIANwAyADkALQBiADgAZgA0AC0ANABjAGQAMwAtAGEAZAAwADMALQA4AGIAMQBlAGYANABjAGMAZAA5AGUAYQB9QHmAAAAAAABAaYAAAAAAAD+crAgxJul+AQ==]]>
+  </DiagramLayout>
+</ManagedForm>

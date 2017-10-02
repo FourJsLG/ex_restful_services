@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WorkspaceDatabase fileContentsEncoding="CP1252" version="2.0">
+<File m="category" n="category.4gl" ts="20170801095533335">
+<Ref t="categoryTypes.inc"/>
+<Fct c="10" el="381" l="379" n="setQueryid(thisID STRING)" t="F"/>
+<Fct c="10" el="377" l="375" n="initQuery()" t="F"/>
+<Fct c="18" el="370" l="356" n="deleteRecordById(thisData STRING)" t="F"/>
+<Fct c="10" el="338" l="315" n="processRecordsDelete(thisData STRING)" t="F">
+<Call c="18" l="329" n="deleteRecordById" t="F"/>
+</Fct>
+<Fct c="18" el="297" l="281" n="insertRecord(thisData STRING)" t="F"/>
+<Fct c="10" el="263" l="239" n="processRecordsInsert(thisData STRING)" t="F">
+<Call c="18" l="253" n="insertRecord" t="F"/>
+</Fct>
+<Fct c="18" el="222" l="202" n="updateRecordById(thisData STRING)" t="F"/>
+<Fct c="10" el="184" l="150" n="processRecordsUpdate(thisData STRING)" t="F">
+<Call c="18" l="167" n="updateRecordById" t="F"/>
+</Fct>
+<Fct c="10" el="132" l="130" n="getRecordsList()" t="F"/>
+<Fct c="10" el="112" l="110" n="init()" t="F"/>
+<Fct c="10" el="93" l="91" n="getJSONEncoding()" t="F"/>
+<Fct c="10" el="74" l="51" n="getRecords()" t="F"/>
+<Todo l="33" t=" determine if mutators should be used instead; should be PRIVATE; how to do this for an array&#13;"/>
+<Todo l="181" t=" formulate a JSON style response for an update&#13;"/>
+<Todo l="260" t=" formulate a JSON style response for an update&#13;"/>
+<Todo l="294" t=" formulate a JSON style response for an update&#13;"/>
+<Todo l="367" t=" formulate a JSON style response for an update&#13;"/>
+</File>
+<File m="categoryTypes" n="categoryTypes.inc" ts="20170717083656145"/>
+<File m="tester" n="tester.4gl" ts="20170717085514525">
+<Dep t="category.4gl"/>
+<Fct c="1" el="68" l="5" n="main()" t="F">
+<Call c="23" i="category" l="13" n="setQueryID" p="category.4gl" t="F"/>
+<Call c="23" i="category" l="14" n="getRecords" p="category.4gl" t="F"/>
+<Call c="53" i="category" l="20" n="getJSONEncoding" p="category.4gl" t="F"/>
+<Call c="44" i="category" l="26" n="getJSONEncoding" p="category.4gl" t="F"/>
+<Call c="14" l="26" n="processRecordsUpdate" p="category.4gl" t="F"/>
+<Call c="23" i="category" l="27" n="getRecords" p="category.4gl" t="F"/>
+<Call c="58" i="category" l="28" n="getJSONEncoding" p="category.4gl" t="F"/>
+<Call c="44" i="category" l="31" n="getJSONEncoding" p="category.4gl" t="F"/>
+<Call c="14" l="31" n="processRecordsUpdate" p="category.4gl" t="F"/>
+<Call c="23" i="category" l="32" n="getRecords" p="category.4gl" t="F"/>
+<Call c="59" i="category" l="33" n="getJSONEncoding" p="category.4gl" t="F"/>
+<Call c="23" i="category" l="40" n="init" p="category.4gl" t="F"/>
+<Call c="44" i="category" l="47" n="getJSONEncoding" p="category.4gl" t="F"/>
+<Call c="14" l="47" n="processRecordsInsert" p="category.4gl" t="F"/>
+<Call c="23" i="category" l="48" n="setQueryID" p="category.4gl" t="F"/>
+<Call c="23" i="category" l="49" n="getRecords" p="category.4gl" t="F"/>
+<Call c="58" i="category" l="50" n="getJSONEncoding" p="category.4gl" t="F"/>
+<Call c="23" i="category" l="58" n="init" p="category.4gl" t="F"/>
+<Call c="44" i="category" l="60" n="getJSONEncoding" p="category.4gl" t="F"/>
+<Call c="14" l="60" n="processRecordsDelete" p="category.4gl" t="F"/>
+<Call c="23" i="category" l="62" n="setQueryID" p="category.4gl" t="F"/>
+<Call c="23" i="category" l="63" n="getRecords" p="category.4gl" t="F"/>
+<Call c="124" i="category" l="64" n="getJSONEncoding" p="category.4gl" t="F"/>
+</Fct>
+</File>
+</WorkspaceDatabase>
