@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<WorkspaceDatabase fileContentsEncoding="CP1252" version="2.0">
+<WorkspaceDatabase fileContentsEncoding="UTF-8" version="2.0">
 <File m="demoClient" n="webservices/Client/demoClient.4gl" ts="20170927221204916">
 <Fct c="10" el="815" l="784" n="deleteCustomer(thisCustomer STRING)" t="F"/>
 <Fct c="10" el="782" l="749" n="postCustomer(thisCustomer RECORD)" t="F"/>

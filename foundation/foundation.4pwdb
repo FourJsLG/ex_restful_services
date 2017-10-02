@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<WorkspaceDatabase fileContentsEncoding="CP1252" version="2.0">
-<File m="appUtility" n="application/appUtility.4gl" ts="20170824114845098">
+<WorkspaceDatabase fileContentsEncoding="UTF-8" version="2.0">
+<File m="appUtility" n="application/appUtility.4gl" ts="20171002122239709">
 <Dep t="logger/logger.4gl"/>
-<Fct c="10" el="63" l="59" n="programExit(stat INTEGER)" t="F"/>
-<Fct c="10" el="47" l="30" n="initialize()" t="F">
+<Fct c="10" el="64" l="60" n="programExit(stat INTEGER)" t="F"/>
+<Fct c="10" el="48" l="30" n="initialize()" t="F">
 <Call c="17" i="logger" l="38" n="initializeLog" p="logger/logger.4gl" t="F"/>
 <Call c="21" i="logger" l="44" n="logEvent" p="logger/logger.4gl" t="F"/>
+<Call c="14" l="45" n="programExit" t="F"/>
 </Fct>
 <Bug l="36" t="for logging : _LOGMSG:3 is default; otherwise _LOGERROR:1, _LOGDE"/>
 <Bug l="36" t="2, _LOGACCESS:4, _LOGSQLERROR:5&#13;"/>
 </File>
-<File m="logger" n="logger/logger.4gl" ts="20170824103728665">
+<File m="logger" n="logger/logger.4gl" ts="20171002122239701">
 <Fct c="18" el="184" l="153" n="defaultLogger(logCategory INTEGER,logClass STRING,logEvent STRING,logMessage STRING)" t="F"/>
 <Fct c="17" el="131" l="102" n="initializeLog(logLevel STRING,logPath STRING,logFile STRING)" t="F">
 <Call c="16" l="117" n="checkPath" t="F"/>
@@ -21,7 +22,7 @@
 <Call c="16" l="75" n="checkPath" t="F"/>
 </Fct>
 <Fct c="17" el="45" l="43" n="logEvent(logCategory INTEGER,logClass STRING,logEvent STRING,logMessage STRING)" t="F"/>
-<Fct c="17" el="40" l="38" n="setLoggerFunction(functionName FUNCTION (logCategory:INTEGER,logClass:STRING,logEvent:STRING,logMessage:STRING))" t="F"/>
+<Fct c="17" el="40" l="38" n="setLoggerFunction(functionName FUNCTION (logCategory:INTEGER, logClass:STRING, logEvent:STRING, logMessage:STRING))" t="F"/>
 <Bug l="42" t="FGL-4665 This is a temporary workaround for "/>
 <Bug l="95" t="level"/>
 <Bug l="144" t=": logs everything"/>
